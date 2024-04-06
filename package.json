@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@rogotuo/jamet": "^10.5.0"
+  },
+  "name": "@rogotuo/jamet",
+  "description": "\"jamet\": \"^3.0.0\" \"main\": \"dist/index.cjs.js\", \"module\": \"dist/index.esm.js\" \"@babel/runtime\": \"^7.7.7\" const { getConfig } = require(\"rogo\");",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogoTuo/jamet.git"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "[",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogoTuo/jamet/issues"
+  },
+  "homepage": "https://github.com/RogoTuo/jamet#readme"
+}
