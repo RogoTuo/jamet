@@ -1,0 +1,39 @@
+{
+  "name": "npm-dependants",
+  "description": "Get dependants of a module on npm",
+  "version": "2.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/npm-dependants.git"
+  },
+  "scripts": {
+    "release": "np",
+    "test": "prettier-standard && standard && tap"
+  },
+  "dependencies": {
+    "@cto.ai/sdk": "^2.1.2",
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "np": "^5.2.1",
+    "prettier-standard": "^16.1.0",
+    "standard": "^14.3.1",
+    "tap": "^14.10.5"
+  },
+  "keywords": [
+    "npm",
+    "dependants",
+    "dependents",
+    "dependencies"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT",
+  "bin": {
+    "npm-dependants": "bin/npm-dependants.js"
+  }
+}
